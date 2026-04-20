@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class pairs {
     public static void main (String[] args){
-        System.out.println();
+        System.out.println(pairs(new String[]{"code", "bug"}));
         System.out.println();
         System.out.println();
     }
