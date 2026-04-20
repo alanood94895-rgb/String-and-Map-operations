@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class wordAppend {
     public static void main(String[] args) {
         System.out.println(wordAppend(new String[]{"a", "b", "a"})); // "a"
-        System.out.println(wordAppend(new String[]{"a", "b", "a", "c", "a", "d", "a"}));
+        System.out.println(wordAppend(new String[]{"a", "b", "a", "c", "a", "d", "a"})); // "aa"
         System.out.println(wordAppend(new String[]{"a", "", "a"}));
     }
 
