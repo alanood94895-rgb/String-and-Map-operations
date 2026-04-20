@@ -3,7 +3,7 @@ import java.util.HashMap;
 
  public class word0 {
     public static void main(String[] args) {
-        System.out.println(word0(new String[]{"a", "b", "a", "b"}));
+        System.out.println(word0(new String[]{"a", "b", "a", "b"})); // {"a": 0, "b": 0}
         System.out.println(word0(new String[]{"a", "b", "a", "c", "b"}));
         System.out.println(word0(new String[]{"c", "b", "a"}));
     }
