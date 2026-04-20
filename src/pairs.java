@@ -13,7 +13,7 @@ public class pairs {
 
          for (String str : String) {
             String key = str.substring(0, 1); // first character
-            String value = str.substring(str.length() - 1); // last character
+            String value = str.substring(str.length() - 1);
             result.put(key, value);
         }
 
