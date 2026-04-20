@@ -5,7 +5,7 @@ import java.util.Map;
 public class wordLen {
     public class void main (String[] args){
         System.out.println(wordLen (new String[]{"a", "bb", "a", "bb"})); // {"bb": 2, "a": 1}
-        System.out.println(wordLen(new String[]{"this", "and", "that", "and"}));
+        System.out.println(wordLen(new String[]{"this", "and", "that", "and"})); // {"that": 4, "and": 3, "this": 4}
         System.out.println(wordLen(new String[]{"this", "and", "that", "and"}));
     }
 
