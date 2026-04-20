@@ -16,7 +16,6 @@ public class wordAppend {
             int count = countMap.getOrDefault(str, 0) + 1;
             countMap.put(str, count);
 
-            // append on 2nd, 4th, 6th... occurrence
             if (count % 2 == 0) {
                 result.append(str);
             }
