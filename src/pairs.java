@@ -15,6 +15,7 @@ public class pairs {
              // first character
             String key = str.substring(0, 1);
 
+            // last character
             String value = str.substring(str.length() - 1);
             result.put(key, value);
         }
