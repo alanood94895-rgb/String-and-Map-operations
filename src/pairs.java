@@ -12,7 +12,7 @@ public class pairs {
         Map<String, String> result = new HashMap<>();
 
          for (String str : String) {
-            String key = str.substring(0, 1); // first character
+            String key = str.substring(0, 1);
             String value = str.substring(str.length() - 1);
             result.put(key, value);
         }
