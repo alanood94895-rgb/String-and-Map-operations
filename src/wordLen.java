@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class wordLen {
     public class void main (String[] args){
-        System.out.println();
+        System.out.println(wordLen (new String[]{"a", "bb", "a", "bb"}));
         System.out.println();
         System.out.println();
     }
