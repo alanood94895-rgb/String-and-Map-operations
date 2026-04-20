@@ -4,7 +4,6 @@ import java.util.HashMap;
 public class firstChar {
     public static void main(String[] args) {
         System.out.println(firstChar(new String[]{"salt", "tea", "soda", "toast"})); // {"s": "saltsoda", "t": "teatoast"}
-        System.out.println(firstChar(new String[]{"aa", "bb", "cc", "aAA", "cCC", "d"})); // {"a": "aaaAA", "b": "bb", "c": "cccCC", "d":"d"
 
     }
 }
