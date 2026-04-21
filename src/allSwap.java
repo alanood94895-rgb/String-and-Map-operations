@@ -5,9 +5,7 @@ public class allSwap {
 
     public static void main(String[] args) {
         System.out.println((allSwap(new String[]{"ab", "ac"})));
-
         System.out.println((allSwap(new String[]{"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"})));
-
         System.out.println((allSwap(new String[]{"ax", "bx", "ay", "by", "ai", "aj", "bx", "by"})));
     }
 
