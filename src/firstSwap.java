@@ -23,6 +23,7 @@ public class firstSwap {
             if (map.containsKey(first)) {
                 int prevIndex = map.get(first);
 
+                //swap
                 String temp = strings[i];
                 strings[i] = strings[prevIndex];
                 strings[prevIndex] = temp;
