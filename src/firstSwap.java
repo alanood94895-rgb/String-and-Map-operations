@@ -19,6 +19,8 @@ public class firstSwap {
                 if (map.containsKey(key)) {
                     int position = map.get(key);
                     if (  position != -1) {
+
+                        // swap
                         String temp = strings[position];
                         strings[position] = strings[i];
                         strings[i] = temp;
