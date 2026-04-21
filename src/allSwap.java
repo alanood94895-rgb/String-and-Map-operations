@@ -25,6 +25,7 @@ public class allSwap {
                 strings[i] = strings[j];
                 strings[j] = temp;
 
+                // remove key
                 map.remove(key);
             } else {
                 map.put(key, i);
